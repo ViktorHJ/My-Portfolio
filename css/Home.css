@@ -1,0 +1,20 @@
+﻿#showcase
+{
+    background-image:url('/img/showcase.jpg');
+    background-position:center right;
+    min-width: 240px;
+    min-height: 280px;
+    margin-top: 2em;
+    display:block;
+}
+
+#showcase p
+{
+    width: 240px;
+    height: 280px;
+    color:white;
+    position: absolute ;
+    right: 11%;
+    font-size: 16px;
+    margin: 1em 0em 0em 0em;
+}

@@ -1,0 +1,129 @@
+body 
+{
+    background-color: gainsboro;
+    margin: 0px;
+}
+
+.container 
+{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    font: lighter 16px Arial, Ebrima;
+}
+
+a:after
+{
+    color:firebrick;
+}
+
+.button 
+{
+    background-color: #333;
+    color: #ffffff;
+    padding: 2px 5px;
+    border: none;
+    font-family: Ebrima;
+    font-size: 18px;
+}
+
+.button:hover 
+{
+    background-color: #595959;
+    color: #da191f;
+}
+
+.button:active 
+{
+    color: whitesmoke;
+    background-color: #595959;
+}
+
+.article 
+{
+    background-color: #333;
+    border-right: dashed 4px #da191f;
+    margin: 0px 0px 0px 0px;
+    padding-right: 5px;
+}
+
+.article h3
+{
+    color: white;
+    font-family: Arial;
+    margin: 7px 0px 7px 7px;
+    padding-top: 10px;
+}
+
+.article p
+{
+    color: white;
+    font-family: Arial;
+    margin: 0px 4px 4px 4px;
+    padding-bottom: 5px;
+}
+
+.embed
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainHeader 
+{
+    background-color: #333;
+    border: none;
+    padding: 5px 0px 5px 0px;
+    width: 100%;
+}
+
+#mainHeader h1 
+{
+    color: white;
+    font: 100 27px arial;
+    margin-left: 10px;
+}
+
+#navbar {
+    background-color: #da191f;
+    padding: 0px;
+    width:100%;
+}
+
+#navbar ul 
+{
+    padding: 0;
+    list-style: none;
+    margin: 5px 0px;
+}
+
+#navbar li 
+{
+    padding: 0px;
+    display: inline;
+}
+
+#navbar a 
+{
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    color: white;
+}
+
+#footer 
+{
+    width: 100%;
+    background-color: #333;
+    border-top: 5px solid #da191f;
+    padding: 0px;
+}
+
+#footer p 
+{
+    text-align: center;
+    color: white;
+    font: 100 14px Arial;
+    padding: 4px;
+}
