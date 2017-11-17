@@ -40,9 +40,6 @@
 }
 
 @media(max-width:1424px) {
-    .container {
-        width: 100%;
-    }
 
     #Introduction {
         width: 100%;
@@ -51,6 +48,11 @@
 }
 
 @media(max-width:975px) {
+
+    .container {
+      width: 100%;
+    }
+
     .Card {
         margin: 20px 1% 20px 1%;
     }

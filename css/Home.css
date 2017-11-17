@@ -1,6 +1,6 @@
 ﻿#showcase
 {
-    background-image:url('img/showcase.jpg');
+    background-image:url('../img/showcase.jpg');
     background-position:center right;
     min-width: 240px;
     min-height: 280px;
