@@ -1,5 +1,5 @@
 body {
-   background-color: gainsboro;
+   background-color: #eee;
    margin: 0px;
 }
 
@@ -19,13 +19,9 @@ p{
    font: lighter 16px Arial, Ebrima;
 }
 
-a:after {
-   color: firebrick;
-}
-
 .button {
-   background-color: #333;
-   color: #ffffff;
+   background-color: #bbb;
+   color: #eee;
    padding: 2px 5px;
    border: none;
    font-family: Ebrima;
@@ -33,31 +29,31 @@ a:after {
 }
 
 .button:hover {
-   background-color: #595959;
-   color: #da191f;
+   background-color: #aaa;
+   color: #2e8198;
 }
 
 .button:active {
-   color: whitesmoke;
-   background-color: #595959;
+   color: #2e8198;
+   background-color: #aaa;
 }
 
 .article {
-   background-color: #333;
-   border-right: dashed 4px #da191f;
-   margin: 0px 0px 0px 0px;
+   background-color: #ddd;
+   border-right: dashed 4px #2e8198;
+   margin: 20px 0px 20px 0px;
    padding-right: 5px;
 }
 
 .article h3 {
-   color: white;
+   color: #43656f;
    font-family: Arial;
    margin: 7px 0px 7px 7px;
    padding-top: 10px;
 }
 
 .article p {
-   color: white;
+   color: #81b3c1;
    font-family: Arial;
    margin: 0px 4px 4px 4px;
    padding-bottom: 5px;
@@ -69,20 +65,20 @@ a:after {
 }
 
 #mainHeader {
-   background-color: #333;
+   background-color: #ccc;
    border: none;
    padding: 5px 0px 5px 0px;
    width: 100%;
 }
 
 #mainHeader h1 {
-   color: white;
+   color: #43656f;
    font: 100 27px arial;
    margin-left: 10px;
 }
 
 #navbar {
-   background-color: #da191f;
+   background-color: #ddd;
    padding: 0px;
    width: 100%;
 }
@@ -98,24 +94,33 @@ a:after {
    display: inline;
 }
 
-#navbar a {
+#navbar ul li a {
    text-decoration: none;
    font-size: 16px;
    padding-right: 20px;
    padding-bottom: 0px;
-   color: white;
+   color: #43656f;
+}
+
+#navbar a:active{
+  color: #fff;
+}
+
+.curent a {
+  color: #2d7f96 !important;
 }
 
 .footer {
    width: 100%;
-   background-color: #333;
-   border-top: 5px solid #da191f;
-   padding: 0px 0px 1px 0px;
+   background-color: #aaa;
+   border-top: 5px solid #2e8198;
+   padding: 0px 0px 10px 0px;
+   margin-top: 60px;
 }
 
 .footer p {
    text-align: center;
-   color: white;
+   color: #eee;
    font: 100 14px Arial;
    padding: 4px;
 }

@@ -1,4 +1,4 @@
-﻿#showcase
+#showcase
 {
     background-image:url('../img/showcase.jpg');
     background-position:center right;
@@ -14,8 +14,8 @@
     height: 280px;
     position: absolute;
     float: left;
-    color:white;
-    right: 11%;
+    color:#eee;
     font-size: 16px;
     right: 8%;
+    top: 170px;
 }
