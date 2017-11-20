@@ -1,19 +1,42 @@
-@media(min-width:1424px) {
+@media(min-width:1280px) {
+    #ShowcaseVideoTablet {
+        display: none;
+    }
     #ShowcaseVideoMobile {
         display: none;
     }
+    #Introduction {
+        height: 720px;
+        margin: 30px 0px 30px 0px;
+    }
 }
 
-@media(max-width:1424px) {
+@media(min-width:720px) and (max-width:1279px) {
     #ShowcaseVideoPC {
         display: none;
     }
+    #ShowcaseVideoMobile {
+        display: none;
+    }
+    #Introduction {
+        height: 405px;
+        margin: 25px 0px 25px 0px;
+    }
 }
 
-@media(max-width:1424px) {
-
-    #Introduction {
-        width: 100%;
-        height: 405px;
+@media(min-width:479px) and (max-width:719px) {
+    #ShowcaseVideoPC {
+        display: none;
     }
+    #ShowcaseVideoTablet {
+        display: none;
+    }
+    #Introduction {
+        height: 270px;
+        margin: 20px 0px 20px 0px;
+    }
+}
+
+#Introduction {
+    background-color: #333;
 }
