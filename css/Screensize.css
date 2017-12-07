@@ -24,7 +24,7 @@
     }
 }
 
-@media(min-width:479px) and (max-width:719px) {
+@media screen and (max-width:719px) {
     #ShowcaseVideoPC {
         display: none;
     }
