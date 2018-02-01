@@ -31,12 +31,43 @@
     #ShowcaseVideoTablet {
         display: none;
     }
+
     #Introduction {
-        height: 270px;
-        margin: 20px 0px 20px 0px;
+        height: 180px;
+        margin: 20px 0px;
     }
+    #logo
+    {
+      width: 50%;
+      height: auto;
+      padding: 0px 24% 0px 24%;
+    }
+
+    #name
+    {
+      display: none;
+    }
+
+    #mainHeader h1 {
+       margin: 5px;
+    }
+
+    #navbar ul {
+       padding: 0;;
+       margin: 5px 0px;
+    }
+
+    #navbar li {
+       padding: 0px;
+    }
+
+    #navbar ul li a {
+       margin-right: 15px;
+       padding: 7px 5px 7px 5px;
+    }
+
 }
 
 #Introduction {
-    background-color: #333;
+    background-color: #CDCDCD;
 }

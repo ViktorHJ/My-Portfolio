@@ -1,21 +1,22 @@
 #showcase
 {
-    background-image:url('../img/showcase.jpg');
-    background-position:center right;
-    min-width: 240px;
-    min-height: 280px;
+    width: 100%;
+    height: auto;
     margin-top: 2em;
-    display:block;
+    margin-bottom: 1em;
+    display:inline-block;
 }
 
-#showcase p
+#logo
 {
-    width: 240px;
-    height: 280px;
-    position: absolute;
-    float: left;
-    color:#eee;
-    font-size: 16px;
-    right: 8%;
-    top: 170px;
+  width: 23%;
+  height: auto;
+}
+
+#name
+{
+  height: auto;
+  width: 73%;
+  margin-bottom:3%;
+  margin-left: 3%;
 }
