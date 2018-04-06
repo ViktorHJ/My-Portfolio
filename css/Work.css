@@ -122,6 +122,16 @@
    text-align: center;
    color: #000;
 }
+
+a {
+  text-decoration: none;
+}
+
+a h3:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
 /* <-------------> */
 
 
@@ -130,5 +140,19 @@
     margin-left: auto;
     margin-right: auto;
     display: block
+}
+/* <-------------------> */
+
+/* Card state */
+.card:hover {
+  background-color: #CDCDCD;
+}
+
+.info-container h3:hover {
+  color: #c66f2b;
+}
+
+.info-container p:hover {
+  color: #191919;
 }
 /* <-------------------> */
