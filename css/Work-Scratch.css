@@ -4,6 +4,11 @@
   margin: 10em auto 0 auto;
 }
 
+#scratch {
+  margin-top: -76px;
+  margin-right: -17px;
+}
+
 @media (max-width: 959px)
 {
   #game-view{
