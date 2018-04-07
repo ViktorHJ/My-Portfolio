@@ -2,11 +2,8 @@
   width: 960px;
   height: 720px;
   margin: 10em auto 0 auto;
-}
-
-#scratch {
-  margin-top: -76px;
-  margin-right: -17px;
+  overflow-y: hidden;
+  height: 690px;
 }
 
 @media (max-width: 959px)
