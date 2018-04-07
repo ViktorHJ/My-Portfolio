@@ -1,8 +1,6 @@
 @media screen and (min-width: 1250px)
 {
   #game-view {
-    width: 960px;
-    height: 720px;
     margin: 7em auto 1em auto;
     overflow-y: hidden;
     height: 662px;
@@ -19,13 +17,11 @@
 @media screen and (min-width: 1600px)
 {
   #game-view2 {
-    width: 1440px;
-    height: 1080px;
     margin: 7em auto 1em auto;
     overflow-y: hidden;
-    height: 1022px;
+    height: 943px;
     overflow-x: hidden;
-    width: 1361px;
+    width: 1257px;
     display: block;
   }
 
