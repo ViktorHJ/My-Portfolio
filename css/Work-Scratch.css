@@ -1,12 +1,11 @@
 #game-view {
   width: 960px;
   height: 720px;
-  margin: 10em auto 0 auto;
+  margin: 7em auto 0 auto;
   overflow-y: hidden;
-  height: 680px;
+  height: 662px;
   overflow-x: hidden;
-  width: 931px;
-  padding-top: 10px;
+  width: 881px;
 }
 
 @media (max-width: 959px)
