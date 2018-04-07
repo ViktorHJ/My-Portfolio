@@ -4,6 +4,8 @@
   margin: 10em auto 0 auto;
   overflow-y: hidden;
   height: 690px;
+  overflow-x: hidden;
+  width: 951px;
 }
 
 @media (max-width: 959px)
