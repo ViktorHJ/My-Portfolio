@@ -1,9 +1,11 @@
+@charset "UTF-8";
+
 body {
    background-color: #eee;
    margin: 0px;
 }
 
-h3{
+h2{
    margin: 0px;
 }
 
@@ -20,7 +22,7 @@ p{
 }
 
 .button {
-   background-color: #CDCDCD;
+   background-color: #373b49;
    color: #C06014;
    padding: 2px 5px;
    border: none;
@@ -29,16 +31,16 @@ p{
 }
 
 .button:active {
-   background-color: #EDDBCD;
+   background-color: #4b4e5b;
 }
 
 .article {
-   border-bottom: solid 3px #CDCDCD;
+   border-bottom: solid 3px #373b49;
    margin: 10px 0px 20px 0px;
    padding-right: 5px;
 }
 
-.article h3 {
+.article h2 {
    color: #3d3b3c;
    font-family: Arial;
    margin: 7px 0px 7px 14px;
@@ -59,14 +61,14 @@ p{
 
 
 .curent a {
-  background-color: #EDDBCD;
+  background-color: #4b4e5b;
 
 }
 
 .footer {
    width: 100%;
    background-color: #eee;
-   border-top: 5px solid #CDCDCD;
+   border-top: 5px solid #373b49;
    padding: 0px 0px 10px 0px;
    margin-top: 60px;
 }
@@ -92,7 +94,7 @@ p{
 }
 
 #navbar {
-   background-color: #CDCDCD;
+   background-color: #373b49;
    padding: 0px;
    width: 100%;
 }
@@ -110,7 +112,7 @@ p{
 
 #navbar ul li a {
    text-decoration: none;
-   font-size: 16px;
+   font-size: 18px;
    margin-right: 20px;
    padding: 7px 7px 7px 7px;
    color: #C06014;

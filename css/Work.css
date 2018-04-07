@@ -109,7 +109,7 @@
 }
 
 /* Card info layout */
-.info-container h3 {
+.info-container h2 {
    font-size: 140%;
    padding-bottom: 7px;
    text-align: center;
@@ -127,7 +127,7 @@ a {
   text-decoration: none;
 }
 
-a h3:hover {
+a h2:hover {
   text-decoration: underline;
   text-decoration-style: solid;
 }
@@ -148,7 +148,7 @@ a h3:hover {
   background-color: #CDCDCD;
 }
 
-.info-container h3:hover {
+.info-container h2:hover {
   color: #c66f2b;
 }
 
