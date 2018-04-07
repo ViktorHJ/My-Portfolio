@@ -3,9 +3,10 @@
   height: 720px;
   margin: 10em auto 0 auto;
   overflow-y: hidden;
-  height: 690px;
+  height: 680px;
   overflow-x: hidden;
-  width: 951px;
+  width: 931px;
+  padding-top: 10px;
 }
 
 @media (max-width: 959px)
