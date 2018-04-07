@@ -1,29 +1,32 @@
-#game-view0 {
-  margin: 0 auto 1em auto;
-  overflow-y: hidden;
-  height: 360px;
-  overflow-x: hidden;
-  width: 480px;
-  background-color: #373b49;
-  display: block;
-}
-#game-border0 {
-  height: 360px;
-  display: block;
-}
+@media screen and (max-width: 1249px)
+{
+  #game-view0 {
+    margin: 0 auto 1em auto;
+    overflow-y: hidden;
+    height: 309px;
+    overflow-x: hidden;
+    width: 414px;
+    background-color: #373b49;
+    display: block;
+  }
+  #game-border0 {
+    height: 360px;
+    display: block;
+  }
 
 
-#game-view1 {
-  display: none;
-}
-#game-border1 {
-  display: none;
-}
-#game-view2 {
-  display: none;
-}
-#game-border2 {
-  display: none;
+  #game-view1 {
+    display: none;
+  }
+  #game-border1 {
+    display: none;
+  }
+  #game-view2 {
+    display: none;
+  }
+  #game-border2 {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1250px)
@@ -107,6 +110,6 @@
 #game-name {
   font: lighter 47px Courier New, Ebrima;
   width: 50%;
-  margin: 3em auto 0em auto;
+  margin: 1em auto 0em auto;
   text-align: center;
 }
