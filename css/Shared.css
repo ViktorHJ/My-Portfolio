@@ -51,6 +51,13 @@ a {
    padding-top: 10px;
 }
 
+.article h3 {
+   color: #3d3b3c;
+   font-family: Arial;
+   margin: 3px 0px 3px 0px;
+   padding-top: 5px;
+}
+
 .article p {
    color: #3d3b3c;
    font-family: Arial;

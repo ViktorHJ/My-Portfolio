@@ -5,12 +5,12 @@
     overflow-y: hidden;
     height: 309px;
     overflow-x: hidden;
-    width: 414px;
+    width: 424px;
     background-color: #373b49;
     display: block;
   }
   #game-border0 {
-    height: 360px;
+    height: 309px;
     display: block;
   }
 
@@ -36,7 +36,7 @@
     overflow-y: hidden;
     height: 662px;
     overflow-x: hidden;
-    width: 881px;
+    width: 884px;
     background-color: #373b49;
     display: block;
   }
@@ -67,7 +67,7 @@
     overflow-y: hidden;
     height: 943px;
     overflow-x: hidden;
-    width: 1257px;
+    width: 1256px;
     background-color: #373b49;
     display: block;
   }
