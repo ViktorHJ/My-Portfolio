@@ -1,15 +1,58 @@
+#game-view0 {
+  margin: 0 auto 1em auto;
+  overflow-y: hidden;
+  height: 360px;
+  overflow-x: hidden;
+  width: 480px;
+  background-color: #373b49;
+  display: block;
+}
+#game-border0 {
+  height: 360px;
+  display: block;
+}
+
+
+#game-view1 {
+  display: none;
+}
+#game-border1 {
+  display: none;
+}
+#game-view2 {
+  display: none;
+}
+#game-border2 {
+  display: none;
+}
+
 @media screen and (min-width: 1250px)
 {
-  #game-view {
-    margin: 7em auto 1em auto;
+  #game-view1 {
+    margin: 0 auto 1em auto;
     overflow-y: hidden;
     height: 662px;
     overflow-x: hidden;
     width: 881px;
+    background-color: #373b49;
+    display: block;
+  }
+  #game-border1 {
+    height: 662px;
     display: block;
   }
 
+
+  #game-view0 {
+    display: none;
+  }
+  #game-border0 {
+    display: none;
+  }
   #game-view2 {
+    display: none;
+  }
+  #game-border2 {
     display: none;
   }
 }
@@ -17,15 +60,53 @@
 @media screen and (min-width: 1600px)
 {
   #game-view2 {
-    margin: 7em auto 1em auto;
+    margin: 0 auto 1em auto;
     overflow-y: hidden;
     height: 943px;
     overflow-x: hidden;
     width: 1257px;
+    background-color: #373b49;
+    display: block;
+  }
+  #game-border2 {
+    height: 943px;
     display: block;
   }
 
-  #game-view {
+
+  #game-view0 {
     display: none;
   }
+  #game-border0 {
+    display: none;
+  }
+  #game-view1 {
+    display: none;
+  }
+  #game-border1 {
+    display: none;
+  }
+}
+
+#game-border0 {
+  margin-top: 2em;
+  width: 100%;
+  background-color: #373b49;
+}
+#game-border1 {
+  margin-top: 2em;
+  width: 100%;
+  background-color: #373b49;
+}
+#game-border2 {
+  margin-top: 2em;
+  width: 100%;
+  background-color: #373b49;
+}
+
+#game-name {
+  font: lighter 47px Courier New, Ebrima;
+  width: 50%;
+  margin: 3em auto 0em auto;
+  text-align: center;
 }
