@@ -1,0 +1,12 @@
+#game-view {
+  width: 960px;
+  height: 720px;
+  margin: 10em auto 0 auto;
+}
+
+@media (max-width: 959px)
+{
+  #game-view{
+    display: none;
+  }
+}
