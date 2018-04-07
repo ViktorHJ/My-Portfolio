@@ -8,6 +8,7 @@
     height: 662px;
     overflow-x: hidden;
     width: 881px;
+    display: block;
   }
 
   #game-view2 {
@@ -25,6 +26,7 @@
     height: 1022px;
     overflow-x: hidden;
     width: 1361px;
+    display: block;
   }
 
   #game-view {
