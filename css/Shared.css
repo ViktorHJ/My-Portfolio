@@ -57,6 +57,27 @@ p{
    padding: 0px;
 }
 
+
+.curent a {
+  background-color: #EDDBCD;
+
+}
+
+.footer {
+   width: 100%;
+   background-color: #eee;
+   border-top: 5px solid #CDCDCD;
+   padding: 0px 0px 10px 0px;
+   margin-top: 60px;
+}
+
+.footer p {
+   text-align: center;
+   color: #000;
+   font: 100 14px Arial;
+   padding: 10px;
+}
+
 #mainHeader {
    background-color: #eee;
    border: none;
@@ -93,24 +114,4 @@ p{
    margin-right: 20px;
    padding: 7px 7px 7px 7px;
    color: #C06014;
-}
-
-.curent a {
-  background-color: #EDDBCD;
-
-}
-
-.footer {
-   width: 100%;
-   background-color: #eee;
-   border-top: 5px solid #CDCDCD;
-   padding: 0px 0px 10px 0px;
-   margin-top: 60px;
-}
-
-.footer p {
-   text-align: center;
-   color: #000;
-   font: 100 14px Arial;
-   padding: 10px;
 }
