@@ -14,11 +14,20 @@ p{
    padding: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
    width: 90%;
    margin: auto;
    overflow: hidden;
    font: lighter 16px Arial, Ebrima;
+}
+
+.game-view{
+  width: 100%;
+  height: auto;
 }
 
 .button {
