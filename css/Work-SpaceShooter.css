@@ -82,6 +82,11 @@
   }
 }
 
+.article h3 {
+  margin-top: 2em;
+  font: lighter 37px Courier New, Ebrima;
+}
+
 #game-border0 {
   margin-top: 2em;
   width: 100%;
@@ -105,4 +110,50 @@
   width: 50%;
   margin: 1em auto 0em auto;
   text-align: center;
+}
+
+#image-sbs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+#image-sbs img {
+  margin: auto auto;
+  height: auto;
+}
+
+#wrap-wrap {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+#Paragraph-Scratch {
+  width: auto;
+  max-width: 63%;
+  min-width: 20%;
+  margin: auto;
+}
+#Paragraph-Scratch p {
+  margin: 0px;
+}
+#image-wrap {
+  min-width: 200px;
+  max-width: 60%;
+  height: auto;
+  margin: 10px auto;
+}
+#image-Scratch {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+}
+#image-Scratch img{
+  margin: auto;
+  height: auto;
 }

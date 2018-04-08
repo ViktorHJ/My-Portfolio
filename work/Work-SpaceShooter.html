@@ -7,7 +7,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="../img/ICO_P.png">
   <link rel="stylesheet" type="text/css" href="../css/Shared.css" />
   <link rel="stylesheet" type="text/css" href="../css/Screensize.css" />
-  <link rel="stylesheet" type="text/css" href="../css/Work-Scratch.css" />
+  <link rel="stylesheet" type="text/css" href="../css/Work-SpaceShooter.css" />
   <title>Portfolio VHJ</title>
 </head>
 
@@ -63,9 +63,64 @@
   <div class="container">
     <div class="article">
       <h3>Bag scenen</h3>
-      <br>
+      <br><br>
       <p>
+        Space Shooter er et scratch spil, og det er derfor også meget simpelt. Det forgår også i et enkelt prædifineret rum, der har et inlagt koordinatsystem og kompas. Spillet er opbygget i 2 hovde grupper, den ene er "top-level" objekter, de står for at styre
+        musiken, pointene, sværhedsgraden, bagrunden, mm. "top-level" objekter har nogle effekter som "low-level" kan benytte, men det er altid "top-level" objekterne der har kontrolen.
+        <br><br> Den anden gruppe er "low-level" objekter, de kan foreksempel være et enkelt missil, eller et rumskib. "low-level" objekter styres af "top-level" objekter, og kan kun klade på funktioner, desuden har de også deres egen lokale kode der
+        styre deres udsene og bevægelse.
       </p>
+      <br><br>
+      <p>
+        Scratch objekter af naturligt store for den mængde kode de indeholder. De er så store fordi alle funktioner og kodestykker i scratch har deres egen "block". En "block" er en alternativ måde at sammesætte kode, de gør det samme som deres tekst mostykker,
+        men de kan trækkes rundt, og så visualisere de også hvilke stykker der kan passe sammen.
+        <br><br> Nedenfor er 2 eksempler på kodestykker i objekter, det første billede er et lille objekt der styre bagrunden. Og det andet er et meget støre objekt der gemmer spillerens score.
+      </p>
+      <br><br>
+      <div id="image-sbs">
+        <img src="../img/Image-Scratch-SmallBlock.png" alt="Error">
+        <img src="../img/Image-Scratch-BigBlock.png" alt="Error">
+      </div>
+      <br><br>
+    </div>
+    <div class="article">
+      <h3>Problemet</h3>
+      <br><br>
+      <p>
+        Scratch har dog nogle problemer. Det største problem er mangle på optimering, det vil sige at spil der bliver for store beggynder at hakke. Dette sker fordi scratch køre i en webrowser via et javascript, og som alle andre "Flash-games" så giver det et
+        problem med at udnytte ressourcerene som komputeren tilbyder.
+        <br><br> Men der er også et meget støre problem med scratch, når en "code-block" bliver for stor beggynder "Scratch Editor" også at hakke og fryse. Da "Scratch Editor" er det program man bruger til at opbygge Scratch spil med, så bliver det meget
+        svært at forsætte når programmet først er nået en vis størelse.
+        <br><br> Heldigvis er Space Shooter ikke så stort et progam, så problemerne er ikke så betydelige.
+        <br> Nedenfor er et billede af alle de objekter som Space Shooter indeholder, og et billede af alle bagrundene.
+      </p>
+      <div id="image-sbs">
+        <img src="../img/Image-Scratch-Objects.png" alt="Error">
+        <img src="../img/Image-Scratch-Backdrop.png" alt="Error">
+      </div>
+      <br><br>
+    </div>
+    <div class="article">
+      <h3>Animationer og Filformater</h3>
+      <div id="wrap-wrap">
+        <div id="Paragraph-Scratch">
+          <p>
+            Da scratch bliver kørt i webrowseren, er det langsomt til at vise billede og andet grafik. Det er derfor at filformaten .svg er fortrukket frem for jgp, jpeg, bmp og png.
+            <br>
+            .Svg er en filformat der gør brug af vektor grafik. Vektor grafik er en form for grafik hvor billedet bliver vist ved at beskrive linjer med matematiske formler, og så farvelægge det efter en nummerenings røækkefølge.
+            <br><br>
+            Man kan tænke på det som at farvelægge en tegenerbog, bare hvor komputeren skal regne linjerne ud først. Vektor grafik har den fordel at det kan skaleres uendeligt, det kan det fordi linje er beskrevet som et matematisk udtryk, og ikke i antal pixels som i mere traditionelle filformater.
+            <br><br>
+            Scratch bruger noget der hedder "Cosutmes" til at vise grafik, de opføre sig ligesom sprites i andre programer. I Scratch animere og tegener man ved at skifte kostumerne ud med regulert interval. På billederne kan der ses nogle eksempler på disse "Costumes".
+          </p>
+        </div>
+        <div id="image-wrap">
+          <div id="image-Scratch">
+            <img src="../img/Image-Scratch-Animation.png" alt="Error">
+            <img src="../img/Image-Scratch-Animation2.png" alt="Error">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
