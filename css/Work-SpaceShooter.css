@@ -5,12 +5,18 @@
     height: 309px;
     overflow-x: hidden;
     width: 424px;
-    background-color: #373b49;
     display: block;
   }
   #game-border0 {
     height: 309px;
     display: block;
+    background: rgba(179,94,25,1);
+    background: -moz-linear-gradient(left, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    background: -o-linear-gradient(left, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    background: -ms-linear-gradient(left, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    background: linear-gradient(to right, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b35e19', endColorstr='#b35e19', GradientType=1 );
   }
   #game-view1 {
     display: none;
@@ -33,12 +39,18 @@
     height: 662px;
     overflow-x: hidden;
     width: 884px;
-    background-color: #373b49;
     display: block;
   }
   #game-border1 {
     height: 662px;
     display: block;
+    background: rgba(179,94,25,1);
+    background: -moz-linear-gradient(left, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    background: -o-linear-gradient(left, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    background: -ms-linear-gradient(left, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    background: linear-gradient(to right, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b35e19', endColorstr='#b35e19', GradientType=1 );
   }
   #game-view0 {
     display: none;
@@ -61,12 +73,18 @@
     height: 943px;
     overflow-x: hidden;
     width: 1256px;
-    background-color: #373b49;
     display: block;
   }
   #game-border2 {
     height: 943px;
     display: block;
+    background: rgba(179,94,25,1);
+    background: -moz-linear-gradient(left, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    background: -o-linear-gradient(left, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    background: -ms-linear-gradient(left, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    background: linear-gradient(to right, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(179,94,25,1) 0%, rgba(140,94,64,0.99) 18%, rgba(103,95,101,0.99) 35%, rgba(90,95,114,0.99) 41%, rgba(90,95,114,1) 49%, rgba(90,95,114,1) 64%, rgba(179,94,25,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b35e19', endColorstr='#b35e19', GradientType=1 );
   }
   #game-view0 {
     display: none;
@@ -108,7 +126,8 @@
 #game-name {
   font: lighter 47px Courier New, Ebrima;
   width: 50%;
-  margin: 1em auto 0em auto;
+  margin: 0em auto 0em auto;
+  padding-top: 1em;
   text-align: center;
 }
 

@@ -14,11 +14,12 @@
   width: 100%;
   height: auto;
   max-height: 300px;
-  padding: 3% 0% 0% 5%;
+  padding: 1% 0% 1% 5%;
 }
 
 .Social-Link:hover {
-  background-color: #CDCDCD;
+  box-shadow: 0 7px 3px 0 rgba(0,0,0,0.20),0 -4px 3px 0 rgba(0,0,0,0.10);
+  transition: box-shadow 250ms cubic-bezier(.14,.68,.93,.47);
 }
 
 .Social-Link a {
@@ -41,11 +42,8 @@
   font: lighter 52px Arial;
   font-size: 5vw;
   float: none;
-  padding-top: 3%;
+  padding-top: 2.2%;
   padding-left: 12%;
   text-align: justify;
-}
-
-#Social-Link {
-  background-color: inherit;
+  color: #373b49;
 }
