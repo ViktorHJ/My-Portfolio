@@ -85,3 +85,14 @@
   color: #000;
   font: lighter 47px Courier New, Ebrima;
 }
+
+@media (max-width:520px) {
+  #image-wrap {
+    display: inline-block;
+  }
+  #Paragraph-GameMaker {
+    display: block;
+    margin: auto;
+    max-width: 93%
+  }
+}
